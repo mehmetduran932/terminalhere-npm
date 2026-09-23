@@ -1,0 +1,2 @@
+# Keep source formatting deterministic on Windows, macOS, and Linux runners.
+* text=auto eol=lf
