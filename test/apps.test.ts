@@ -9,6 +9,8 @@ describe('commandFor', () => {
     expect(commandFor('powershell', 'C:\\unused.exe', '%1')).toContain("-LiteralPath '%1'");
   });
   it('quotes custom executable paths', () => {
-    expect(commandFor('vscode', 'C:\\Program Files\\Code.exe', '%V')).toBe('"C:\\Program Files\\Code.exe" "%V"');
+    expect(commandFor('vscode', 'C:\\Program Files\\Code.exe', '%V')).toBe(
+      '"C:\\Program Files\\Code.exe" "%V"',
+    );
   });
 });

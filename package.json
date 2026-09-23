@@ -6,7 +6,11 @@
   "bin": {
     "terminalhere": "./dist/cli.js"
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "exports": "./dist/index.js",
   "engines": {
     "node": ">=20"
@@ -15,9 +19,21 @@
     "build": "tsc -p tsconfig.json",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "prepack": "npm run build"
   },
-  "keywords": ["windows", "macos", "linux", "context-menu", "terminal", "explorer", "finder", "nautilus", "cli"],
+  "keywords": [
+    "windows",
+    "macos",
+    "linux",
+    "context-menu",
+    "terminal",
+    "explorer",
+    "finder",
+    "nautilus",
+    "cli"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -29,6 +45,7 @@
   "homepage": "https://github.com/mehmetduran932/terminalhere-npm#readme",
   "devDependencies": {
     "@types/node": "^22.10.2",
+    "prettier": "^3.4.2",
     "typescript": "^5.7.2",
     "vitest": "^2.1.8"
   }
