@@ -8,7 +8,7 @@ Cross-platform file-manager integration for opening a folder in a terminal.
 ## Install
 
 ```powershell
-npm install --global @mehmetduran/terminalhere
+npm install --global @mdsoft2026/terminalhere
 terminalhere install
 terminalhere status
 ```
