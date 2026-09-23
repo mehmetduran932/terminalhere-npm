@@ -8,7 +8,7 @@ Cross-platform file-manager integration for opening a folder in a terminal.
 ## Install
 
 ```powershell
-npm install --global @mdsoft2026/terminalhere
+npm install --global @terminalhere/cli
 terminalhere install
 terminalhere status
 ```
@@ -46,3 +46,8 @@ npm pack --dry-run
 ```
 
 No npm release has been published from this repository.
+
+## Package migration
+
+`@mdsoft2026/terminalhere` has been replaced by `@terminalhere/cli`. The
+`terminalhere` command is unchanged; reinstall the package under its new name.
