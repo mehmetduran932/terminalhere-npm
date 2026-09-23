@@ -1,0 +1,35 @@
+{
+  "name": "@mehmetduran/terminalhere",
+  "version": "0.1.0",
+  "description": "Manage Windows Explorer terminal context-menu entries from npm.",
+  "type": "module",
+  "bin": {
+    "terminalhere": "./dist/cli.js"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "exports": "./dist/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "prepack": "npm run build"
+  },
+  "keywords": ["windows", "macos", "linux", "context-menu", "terminal", "explorer", "finder", "nautilus", "cli"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehmetduran932/terminalhere-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mehmetduran932/terminalhere-npm/issues"
+  },
+  "homepage": "https://github.com/mehmetduran932/terminalhere-npm#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
