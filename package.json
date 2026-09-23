@@ -1,10 +1,10 @@
 {
-  "name": "@mehmetduran/terminalhere",
-  "version": "0.1.0",
+  "name": "@mdsoft2026/terminalhere",
+  "version": "0.1.1",
   "description": "Manage Windows Explorer terminal context-menu entries from npm.",
   "type": "module",
   "bin": {
-    "terminalhere": "./dist/cli.js"
+    "terminalhere": "dist/cli.js"
   },
   "files": [
     "dist",
